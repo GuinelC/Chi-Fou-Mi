@@ -24,7 +24,7 @@ body {
     align-items: center;
     background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
     /* background: linear-gradient(to right, #0b486b, #f56217); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    height: 100vh;
+    height: auto;
     width: 100%;
   }
   
@@ -42,7 +42,7 @@ body {
     color: white;
     font-size: 35px;
     font-family: Iceland;
-    margin: 30px;
+    margin: 0 0 40px 0;
     /* background-color: #a8eb12; */
   }
   
@@ -55,6 +55,7 @@ body {
     height: auto;
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 25px;
+    margin-bottom: 30px;
   }
   
   .mainContent {
@@ -211,8 +212,9 @@ body {
   /* ///// RESPONSIVE ///////// */
   
   @media screen and (max-width: 415px) {
+
     .pierre{
-      height: 100vh;
+        height: 100%;
     }
   
     .pierre p{
@@ -228,10 +230,11 @@ body {
     }
     .contentP2{
       width: 95%;
-      height: 405px;
+      height: auto;
       margin: auto;
       border-radius: 5px;
-      padding-bottom: 30px;
+      padding-bottom: 20px;
+      margin-bottom: 40px;
     }
   
     .contentTop{
