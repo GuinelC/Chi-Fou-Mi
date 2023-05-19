@@ -1,0 +1,294 @@
+/* @media only screen and (max-width: 500px) {
+  ul {
+    flex-direction: column;
+    height: auto;
+  }
+} */
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  img{
+    width: 100%;
+    max-height: 300px;
+  }
+  
+  
+  .pierre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    /* background: linear-gradient(to right, #0b486b, #f56217); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+    width: 100%;
+  }
+  
+  #headerTitle {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 3px;
+    text-align: center;
+    margin: 50px 0px;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+  }
+  
+  .pierre p{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    font-family: Iceland;
+    margin: 30px;
+    /* background-color: #a8eb12; */
+  }
+  
+  
+  .contentP2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 25px;
+  }
+  
+  .mainContent {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    /* background-color: darkgreen; */
+    /* align-items: center; */
+  }
+  
+  .choixTitle {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .choixTitle h2 {
+    font-family: Iceland;
+    font-size: 35px;
+  }
+  
+  .leftTitle {
+    min-width: 50%;
+    text-align: left;
+    /* background-color: deeppink; */
+  }
+  
+  .leftTitle h2 {
+    margin-left: 105px;
+  }
+  
+  .rightTitle {
+    min-width: 50%;
+    text-align: right;
+    /* background-color: rgb(255, 134, 20); */
+  }
+  
+  .rightTitle h2 {
+    margin-right: 75px;
+  }
+  
+  .contentTop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 90%;
+    min-height: 367px;
+    background-color: rgba(0, 97, 177, 0.796);
+    border-radius: 5px;
+  }
+  
+  .dash {
+    display: flex;
+    justify-content: center;
+    width: 35%;
+    height: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  
+  .dash.left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .dash.middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 256px;
+    padding: 20px;
+  }
+  
+  /* .dash.left img {
+    min-height: 325px;
+  }
+  
+  .dash.right img {
+    min-height: 325px;
+  } */
+  
+  #comment {
+    font-family: 'Bangers', cursive;
+    text-align: center;
+    font-size: 60px;
+    padding: 20px 0 20px 0px;
+  }
+  
+  #scores {
+    font-size: 70px;
+    /* font-family: Wallpoet; */
+    font-family: 'Bangers', cursive;
+    padding: 20px 0 20px 0px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  /* // VICTOIRE /////////////////////////*/
+  #finish{
+    font-family: 'Bangers', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    letter-spacing: 3px;
+    font-size: 55px;
+    padding: 20px;
+  }
+  
+  .btnReset{
+    font-family: Iceland;
+    font-size: 25px;
+    width: 190px;
+    height: 30px;
+    border-radius: 10px;
+    text-transform: uppercase;
+  }
+  
+  .btnReset:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition: 0.5s;
+  }
+  
+  
+  /* 3 BUTTON ARMES /////////////////////*/
+  .gameButton {
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: auto;
+  }
+  
+  .gameButton button {
+    font-family: Iceland;
+    font-size: 25px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+  
+  .gameButton button:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition: 0.5s;
+  }
+  
+  /* ///// RESPONSIVE ///////// */
+  
+  @media screen and (max-width: 415px) {
+    .pierre{
+      height: 100vh;
+    }
+  
+    .pierre p{
+      font-size: 25px;
+      margin-top: 0;
+      margin-bottom: 30px;
+      /* background-color: #a8eb12; */
+    }
+  
+    #headerTitle{
+      font-size: 35px;
+      margin: 40px;
+    }
+    .contentP2{
+      width: 95%;
+      height: 405px;
+      margin: auto;
+      border-radius: 5px;
+      padding-bottom: 30px;
+    }
+  
+    .contentTop{
+      width: 95%;
+      min-height: 175px;
+    }
+  
+    .choixTitle h2 {
+      font-family: Iceland;
+      font-size: 25px;
+    }
+    .leftTitle h2 {
+      margin-left: 20px;
+    }
+    .rightTitle h2 {
+      margin-right: 20px;
+    }
+    /* MIDDLE */
+    #comment{
+      font-size: 31px;
+      width: 100%;
+      margin: 0;
+    }
+    #scores{
+      font-size: 35px;
+      padding: 10px;
+    }
+    .dash{
+      margin: 0px;
+    }
+    .dash.middle {
+      padding: 3px;
+      justify-content: space-evenly;
+    }
+  
+    img{
+      width: 100%;
+      height: 155px;
+    }
+  
+    /* BTN */
+    .gameButton{
+      width: 90%;
+      display: flex;
+      margin: auto;
+    }
+    .gameButton button{
+      width: auto;
+      font-size: 17px;
+      padding: 5px 10px;
+      margin: 5px;
+      text-align: center;
+      border: none;
+    }
+  
+    /* MESSAGE FIN DE PARTIE */
+    #finish{
+      font-size: 50px;
+    }
+  }
