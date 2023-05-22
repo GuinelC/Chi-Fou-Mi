@@ -262,6 +262,8 @@ body {
   
     img{
       height: 140px;
+      width: 100%;
+      margin: 5px;
     }
   
     /* BTN */
@@ -279,6 +281,7 @@ body {
       border: none;
       height: 40px;
       margin: 10px;
+      color: black;
     }
   
     /* MESSAGE FIN DE PARTIE */
